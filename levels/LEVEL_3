@@ -1,0 +1,27 @@
+addPlayer(200, 300)
+
+addBlock(175, 350, 150, 25)
+addBlock(325, 225, 25, 125)
+addBlock(350, 225, 100, 25)
+addBlock(125, 250, 25, 25)
+addBlock(150, 275, 25, 75)
+addBlock(150, 175, 25, 75)
+addBlock(150, 175, 25, 75)
+addBlock(175, 150, 25, 25)
+addBlock(200, 125, 25, 25)
+addBlock(225, 100, 50, 25)
+addBlock(275, 75, 100, 25)
+addBlock(375, 100, 50, 25)
+addBlock(425, 125, 25, 25)
+addBlock(450, 150, 25, 75)
+
+addZone(375, 175, 50, 50, 1)
+
+addColor(175, 175, 150, 175)
+addColor(150, 250, 25, 25)
+addColor(200, 150, 250, 75)
+addColor(225, 125, 200, 25)
+addColor(275, 100, 100, 25)
+
+addText(100,50, "Sometimes the jumps are high", "normal", 2)
+addText(350,300, "Hold "..love.keyboard.getKeyFromScancode(KEY_JUMP).." to go higher", "small", 3)

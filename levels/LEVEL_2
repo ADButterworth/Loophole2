@@ -1,0 +1,30 @@
+addPlayer(225, 285)				--1
+
+addBlock(175, 225, 25, 100)		--1
+addBlock(200, 200, 25, 25)		--2
+addBlock(225, 150, 25, 50)		--3
+addBlock(250, 125, 175, 25)		--4
+addBlock(425, 150, 75, 25)		--5
+addBlock(475, 175, 25, 25)		--6
+addBlock(500, 200, 25, 50)		--7
+addBlock(525, 250, 25, 75)		--8
+addBlock(425, 325, 100, 50)		--9
+addBlock(300, 375, 125, 25)		--10
+addBlock(200, 325, 100, 50)		--11
+
+addColor(300, 150, 125, 225) 	--1
+addColor(250, 150, 50, 175) 	--2
+addColor(200, 225, 50, 100) 	--3
+addColor(425, 175, 50, 150) 	--4
+addColor(475, 250, 50, 75) 		--5
+addColor(475, 200, 25, 50) 		--6
+addColor(225, 200, 25, 25) 		--7
+
+addZone(475,275,50,50, 1)		--1
+
+addHazard(300,350,125,25)		--1
+
+addText(100,50, "As you might expect, this isn't just about walking", "normal", 2)
+addText(120,80, "You might have to jump a little too", "normal", 3)
+
+addText(140,110, "Press "..love.keyboard.getKeyFromScancode(KEY_JUMP).." to jump", "small", 4)

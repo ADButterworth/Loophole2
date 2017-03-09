@@ -1,0 +1,25 @@
+addPlayer(350, 260)				--1
+
+addBlock(275, 225, 25, 50)		--1
+addBlock(300, 200, 75, 25)		--2
+addBlock(375, 175, 25, 25)		--3
+addBlock(400, 150, 25, 25)		--4
+addBlock(425, 175, 25, 25)		--5
+addBlock(450, 200, 25, 25)		--6
+addBlock(475, 225, 75, 25)		--7
+addBlock(550, 250, 25, 50)		--8
+addBlock(325, 300, 225, 25)		--9
+addBlock(300, 275, 25, 25)		--10
+
+addColor(400, 175, 25, 25) 		--1
+addColor(375, 200, 75, 25) 		--2
+addColor(300, 225, 200, 25) 	--3
+addColor(300, 250, 250, 25) 	--4
+addColor(325, 275, 225, 25) 	--5
+
+addZone(500,250,50,50, 1)		--1
+
+addText(100,50, "Welcome To Loophole", "normal", 1)
+addText(555,280, "<- psst over here", "small", 2)
+addText(320,300, "Press "..love.keyboard.getKeyFromScancode(KEY_LEFT).." to move left", "small", 4)
+addText(320,320, "Press "..love.keyboard.getKeyFromScancode(KEY_RIGHT).." to move right", "small", 4)
